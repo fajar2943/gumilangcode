@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #0f0f0f;
+    }
+  </style>
+</head>
+<body class="text-white font-sans">
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-black via-gray-900 to-black">
+    <img src="fajar.jpg" alt="Profile" class="rounded-full w-40 h-40 mb-6 border-4 border-white shadow-lg" />
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Halo, saya <span class="text-purple-500">Fajar Lintang Gumilang</span></h1>
+    <p class="text-lg md:text-xl text-gray-300 mb-6 text-center">Seorang Senior Fullstack Programmer</p>
+    <a href="#projects" class="bg-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700 transition">Lihat Proyek</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-20 px-6 max-w-4xl mx-auto" id="about">
+    <h2 class="text-3xl font-semibold mb-6 text-center text-purple-400">Tentang Saya</h2>
+    <p class="text-center text-gray-300 leading-relaxed">
+      Saya adalah developer dengan pengalaman lebih dari 5 tahun dalam membangun aplikasi web menggunakan teknologi modern seperti JavaScript, Laravel, dan Tailwind CSS. Fokus utama saya adalah membuat antarmuka yang intuitif dan cepat dengan sentuhan elegan.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="py-20 px-6 bg-black" id="projects">
+    <h2 class="text-3xl font-semibold mb-10 text-center text-purple-400">Proyek Unggulan</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-900 rounded-xl shadow-lg p-6 hover:scale-105 transition-transform">
+        <img src="rekam-medis.png" alt="Project 1" class="rounded-md mb-4" />
+        <h3 class="text-xl font-bold mb-2 text-white">Project 1</h3>
+        <p class="text-gray-400">Deskripsi singkat tentang proyek pertama Anda.</p>
+      </div>
+      <div class="bg-gray-900 rounded-xl shadow-lg p-6 hover:scale-105 transition-transform">
+        <img src="famsnet.png" alt="Project 2" class="rounded-md mb-4" />
+        <h3 class="text-xl font-bold mb-2 text-white">Project 2</h3>
+        <p class="text-gray-400">Deskripsi singkat tentang proyek kedua Anda.</p>
+      </div>
+      <div class="bg-gray-900 rounded-xl shadow-lg p-6 hover:scale-105 transition-transform">
+        <img src="cakrabuana.png" alt="Project 3" class="rounded-md mb-4" />
+        <h3 class="text-xl font-bold mb-2 text-white">Project 3</h3>
+        <p class="text-gray-400">Deskripsi singkat tentang proyek ketiga Anda.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-20 px-6 max-w-2xl mx-auto text-center" id="contact">
+    <h2 class="text-3xl font-semibold mb-6 text-purple-400">Kontak</h2>
+    <p class="text-gray-300 mb-4">Tertarik bekerja sama? Kirim email ke:</p>
+    <a href="mailto:fajar2943@gmail.com" class="text-purple-500 font-medium hover:underline">fajar2943@gmail.com</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-sm text-gray-500 bg-black">
+    &copy; 2025 Fajar Lintang Gumilang. All rights reserved.
+  </footer>
+</body>
+</html>
